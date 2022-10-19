@@ -75,11 +75,11 @@ export default function Navbar() {
               </ul>
             </div>
             <hr className='profile-hr' />
-            <div className='language'>
+            {/* <div className='language'>
               <div className='circle-wrap col_one'>1</div>
               <div className='circle-wrap col_two'>2</div>
               <div className='circle-wrap col_three'>3</div>
-            </div>
+            </div> */}
             <hr className='profile-hr' />
             <div className='education'>
               <div className='rows'>
@@ -87,7 +87,7 @@ export default function Navbar() {
                   <li>
                     <div className='ct-center'>
                       <h6>HTML</h6>
-                      <span>90%</span>
+                      <span>85%</span>
                     </div>
                     <span className='bar'>
                       <span className='html'></span>
@@ -96,7 +96,7 @@ export default function Navbar() {
                   <li>
                     <div className='ct-center'>
                       <h6>CSS</h6>
-                      <span>90%</span>
+                      <span>85%</span>
                     </div>
                     <span className='bar'>
                       <span className='css'></span>
@@ -105,7 +105,7 @@ export default function Navbar() {
                   <li>
                     <div className='ct-center'>
                       <h6>JAVASCRIPT</h6>
-                      <span>70%</span>
+                      <span>75%</span>
                     </div>
                     <span className='bar'>
                       <span className='javascript'></span>
@@ -122,11 +122,11 @@ export default function Navbar() {
                   </li>
                   <li>
                     <div className='ct-center'>
-                      <h6>WORDPRESS</h6>
+                      <h6>REACTJS</h6>
                       <span>70%</span>
                     </div>
                     <span className='bar'>
-                      <span className='wordpress'></span>
+                      <span className='reactjs'></span>
                     </span>
                   </li>
                 </div>
@@ -136,13 +136,13 @@ export default function Navbar() {
             <div className='experience'>
               <ul>
                 <li className='experience-list'>
-                  <span className='exper-ico'>✔</span> Bootstrap, Tailwind
+                  <span className='exper-ico'>✔</span> Bootstrap, Tailwind, Sass
                 </li>
                 <li className='experience-list'>
-                  <span className='exper-ico'>✔</span> Sass, Less
+                  <span className='exper-ico'>✔</span> NextJs, Redux, TypeScript
                 </li>
                 <li className='experience-list'>
-                  <span className='exper-ico'>✔</span> Redux,TypeScript
+                  <span className='exper-ico'>✔</span> MySql, redis, golang
                 </li>
                 <li className='experience-list'>
                   <span className='exper-ico'>✔</span> GIT knowledge

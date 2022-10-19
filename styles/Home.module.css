@@ -2,6 +2,9 @@
 /* .main {
   overflow-y: auto;
 } */
+.mt {
+  margin-top: 70px;
+}
 .artFollow {
   font-size: 0.8rem;
   /* border-top: 1px solid #ccc; */
@@ -30,6 +33,7 @@
   height: calc(100vh - 2rem);
   -ms-overflow-style: none; /* IE and Edge */
   scrollbar-width: none;
+  margin-right: 1.5rem;
 }
 .bgInherit::-webkit-scrollbar {
   display: none;
@@ -162,8 +166,9 @@
 } */
 .experience {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
   margin: 1.5rem 0;
+  text-align: center;
 }
 .experienceOneNum {
   font-size: 2rem;

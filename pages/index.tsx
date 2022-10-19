@@ -26,7 +26,7 @@ const Home: NextPage = () => {
                 <i> &lt; </i>
                 <span>code</span>
                 <i> &gt;</i> You can follow me! through the
-                <span> FACEBOOK</span>
+                <span> SOCIAL NETWORKS</span>
                 <i> &lt;/ </i>
                 <span>code</span>
                 <i> &gt;</i>
@@ -96,7 +96,7 @@ const Home: NextPage = () => {
           <span className={styles.experienceOneTitle}>Honors and Awards</span>
         </div>
       </div>
-      <div className=''>
+      <div className={styles.mt}>
         <div className={styles.name}>
           My Services
           <hr className={styles.hrLight} />
@@ -121,7 +121,7 @@ const Home: NextPage = () => {
             <div className={styles.btnOder}>ORDER NOW ➬</div>
           </div>
           <div className={styles.service}>
-            <div className={styles.serviceTitle}> Web Development </div>
+            <div className={styles.serviceTitle}> Webapp Development </div>
             <p className={styles.serviceDescription}>
               Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus
               esse commodi deserunt vitae, vero quasi! Veniam quaerat tenetur
@@ -149,7 +149,7 @@ const Home: NextPage = () => {
           </div>
         </div>
       </div>
-      <div className=''>
+      <div className={styles.mt}>
         <div className={styles.name}>
           My Projects
           <hr className={styles.hrLight} />

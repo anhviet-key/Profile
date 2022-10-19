@@ -22,7 +22,6 @@ export default function Layout({ children }: { children: React.ReactNode }) {
         <>
           <Navbar />
           {children}
-          <Footer />
         </>
       )}
     </div>
